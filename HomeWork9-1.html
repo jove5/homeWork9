@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<body></body>
+</html>
+<script>
+var time = new Date();
+time = time.getHours();
+if (time>0 && time<4 || time>18){
+	console.log('Good Evening ')
+}
+if (time>4 && time<12){
+	console.log('Good Morning');
+}
+if (time>12 && time<18){
+	console.log('Good Afternoon');
+}
+// console.log('Hello, the time now is '+ time.getHours() +':'+ time.getMinutes() +':'+ time.getSeconds());
+</script>
